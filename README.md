@@ -1,5 +1,7 @@
 YOU WILL NEED TO DOWNLOAD THIS CSV FILE, TITLE IT mbti_1.csv, AND SAVE IT IN THE SAME FOLDER AS THE REST OF THE FILES: https://www.kaggle.com/datasets/datasnaek/mbti-type
 
+***you will also need to properly install the spacy, pandas, and scikit-learn modules
+
 To use Griffin, please download all of these files. 
 Then, run the delta_from_mbti file, which is the main file. 
 Griffin will ask you for the city you want to leave from and the date which you plan to depart. 
