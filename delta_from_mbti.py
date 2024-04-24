@@ -22,9 +22,9 @@ def extract_entities(user_input):
     return entities
 
 def main():
-    print("Welcome to the flight booking system!")
+    print("Welcome to Griffin the Globe: Personal Travel Assistant!")
     while True:
-        user_input = input("Please enter your departure city and departure date: ")
+        user_input = input("Please enter your departure city and departure date to begin your journey: ")
         entities = extract_entities(user_input)
         print(entities)
         if entities["departure_city"] and entities["departure_date"]:
